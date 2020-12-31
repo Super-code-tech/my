@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 40px
+}
+/* Медиа запросы*/
+
+.container {
+    max-width: 1600px;
+}
+/* Меню*/
+header {
+    display: flex;
+    max-height: 90px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+.logo-t {
+    height: auto;
+        margin-left: 40px
+}
+.menu {
+    display: flex;
+    margin: 0 auto;
+    flex: 0 1 auto;
+
+}
+.menu-link {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    text-align: right;
+    justify-content: right;
+}
+.menu-list {
+    margin-right: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.menu-list a{
+    text-decoration: none;
+    color: #777777;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  color: #777777;
+  max-width: 15px;
+  order: -1;
+margin-right: 20px;
+}
+
+.search-field {
+  border: 0;
+padding: 5px 5px 5px 5px
+}
+
+.search-field:focus {
+  border: 1px solid black;
+  border-radius: 15%;
+}
+/*Заголовок */
+.name{
+    height: 350px;
+    padding-top: 155px;
+
+    background-image: url(../img/blog.jpg);
+    background-repeat: no-repeat;
+       margin-left: 50px;
+    background-position: right;
+}
+.title {
+
+    text-transform: uppercase;
+    width:570px;
+    border: 2px solid black;
+    padding: 15px 35px 15px 35px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 48px;
+    line-height: 30px;
+    letter-spacing: 4.8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 55px;
+}
+.title a {
+    color: #ffffff;
+}
+h3 {
+
+    color: #000000;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 7.2px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+li {
+    list-style-type: none;
+}
+a {text-decoration: none;
+color: #333333;}
+
+li:hover {
+    color: black;
+    border-bottom: 2px solid black;
+}
+/*Колонки*/
+
+h4 {
+color: #333333;
+font-family: "Roboto - Bold";
+font-size: 20px;
+font-weight: 700;
+text-align: left;
+line-height: 30px;
+padding-bottom:40px;
+}
+p {
+font-weight: 400;
+color: #777777;
+font-family: 'Roboto';
+font-size: 15px;
+line-height: 25px;
+}
+i {
+    display: flex;
+    align-self: center;
+    padding-right: 8px;
+    color: #9a9a9a;
+}
+.date {
+display: flex;
+justify-content: space-between;
+color: #9a9a9a;
+font-family: 'Roboto';
+font-size: 13px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+.columns {
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 360px 360px 360px;
+    grid-gap: 3%;
+}
+.searchh {
+    margin: 20px;
+  display: flex;
+  align-items: center;
+    justify-content: center;
+}
+.searchh-icon {
+
+  max-width: 15px;
+  order: 1;
+margin-left: 20px;
+}
+h2 {
+color: #000000;
+font-family: 'Roboto';
+font-size: 18px;
+font-weight: 300;
+line-height: 24px;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 7.2px;
+margin: 20px;
+}
+
+.recent-1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.recent-2 {
+    display: flex;
+    justify-content: center;
+}
+.recent-3 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.recent-4 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.recent p {
+       padding-left: 10px;
+}
+.recent-title {
+color: #3d3d3d;
+font-size: 16px;
+font-weight: 500;
+font-style: normal;
+text-align: left;
+font-family: "Roboto Medium";
+font-weight: 800;;
+line-height: 20px
+}
+.tags {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.tags p{
+    padding: 7px;
+}
+.tags a {
+    margin: 0 auto;
+    padding: 7px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;;
+    line-height: 24px;
+    text-align: center;
+}
+.tags a:hover {
+    background-color: black;
+    color: #ffffff;
+    }
+
+/* Низ */
+footer {
+    height: 300px;
+}
+.logo-b {
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+}
+.fonts {
+    display: flex; justify-content: center;
+    padding-top: 68px;
+    padding-bottom: 62px;
+}
+.fonts {
+    display: flex;
+    justify-content: center;
+}
+.bottom {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+.fonts i {
+    color: black;
+    width: 2%;
+}
+
+

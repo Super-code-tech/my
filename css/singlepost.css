@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 40px
+}
+/* Медиа запросы*/
+
+.container {
+    max-width: 1600px;
+}
+/* Меню*/
+header {
+    display: flex;
+    max-height: 90px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+.logo-t {
+    text-align: center;
+    height: auto;
+    margin-left: 40px;
+}
+.menu {
+    display: flex;
+    margin: 0 auto;
+    flex: 0 1 auto;
+
+}
+.menu-link {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+.menu-list {
+    margin-right: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.menu-list a{
+    text-decoration: none;
+    color: #777777;
+}
+
+.search {
+  display: flex;
+    align-items: center; }
+
+.search-icon {
+  color: #777777;
+  max-width: 15px;
+  order: -1;
+margin-right: 20px;
+}
+
+.search-field {
+  border: 0;
+padding: 5px 5px 5px 5px
+}
+
+.search-field:focus {
+  border: 1px solid black;
+  border-radius: 15%;
+}
+/*Заголовок */
+.name{
+    height: 350px;
+    padding-top: 155px;
+   margin-left: 50px;
+    background-image: url(../img/blog.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.title {
+
+    text-transform: uppercase;
+    width:570px;
+    border: 2px solid black;
+    padding: 15px 35px 15px 35px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 48px;
+    line-height: 30px;
+    letter-spacing: 4.8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 55px;
+}
+.title a {
+    color: #ffffff;
+}
+h3 {
+    color: #000000;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 7.2px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+li {
+    list-style-type: none;
+}
+a {text-decoration: none;
+color: #333333;}
+
+li:hover {
+    color: black;
+    border-bottom: 2px solid black;
+}
+.title-post {
+    margin-top: 50px;
+    text-align: center;
+}
+.title-2 {
+color: #333333;
+font-family: "Roboto Light";
+font-size: 30px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: 4.5px;
+line-height: 30px;
+text-transform: uppercase;
+padding-bottom: 20px;
+}
+.title-post p {
+display: inline-flex;
+    margin: 15px;
+color: #777777;
+font-family: 'Roboto';
+font-size: 14px;
+font-weight: 700;
+line-height: normal;
+    letter-spacing: 0.35px;
+}
+i {
+    color: grey;
+    padding-right: 5px;
+}
+ .single-image{
+    display: flex;
+    justify-content: center;
+}
+.text  {
+display: flex;
+flex-wrap: wrap;
+justify-content:center;
+color: #777777;
+font-family: 'Roboto';
+font-size: 14px;
+font-weight: 400;
+text-align: justify-all
+}
+.text-1 {
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.text-2 {
+    padding-bottom: 20px;
+}
+.text-2 {
+    padding-bottom: 20px;
+}
+.bold-text {
+ display: flex;
+    justify-content: center;
+    font-family: "PT Serif";
+font-size: 18px;
+font-weight: 700;
+font-style: italic;
+line-height: 30px;
+text-align: left;
+}
+p.line {
+    border-left: 2px solid #ccc;
+        padding-left: 20px;
+}
+h4 {
+    padding-top:  20px;
+    text-align: center;
+color: #333333;
+font-family: "Roboto - Bold";
+font-size: 16px;
+font-weight: 700;
+letter-spacing: 0.4px;
+line-height: 36px;
+text-transform: uppercase;
+padding-bottom: 20px;
+
+}
+.text-3, .text-4 {
+    padding-bottom: 20px;
+}
+h3.leave {
+
+ text-align: center;
+padding-bottom: 20px;}
+/* Формы*/
+form {
+    text-align: center;
+}
+input:focus {
+background: #eaeaea;
+}
+
+.block-form {
+    margin-bottom: 15px;
+}
+input {
+    border: 0;
+}
+input[type=text], [type=email], [type=url]{
+    padding: 10px;
+    margin: 10px;
+    color: #bababa;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-style: italic;
+    text-align: left;
+}
+textarea {
+    padding: 10px;
+    resize: none;
+    border: 0;
+    color: #bababa;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-style: italic;
+    text-align: left;
+}
+button {
+    border: 0;
+    margin: 20px;
+    padding: 12px;
+    width: 218px;
+    color: #fff;
+    background: black;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21.33px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.79px;
+}
+button:active {
+    background-color: red;
+    outline: none;
+}
+.message {
+    text-align: center;}
+
+/* Низ */
+footer {
+    height: 300px;
+}
+.logo-b {
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+}
+.fonts {
+    display: flex; justify-content: center;
+    padding-top: 68px;
+    padding-bottom: 62px;
+}
+.fonts {
+    display: flex;
+    justify-content: center;
+}
+.bottom {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+.fonts i {
+    color: black;
+    width: 2%;
+}
+

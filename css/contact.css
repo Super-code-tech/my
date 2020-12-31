@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 40px
+}
+/* Медиа запросы*/
+
+.container {
+    max-width: 1600px;
+}
+/* Меню*/
+header {
+    display: flex;
+    max-height: 90px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+.logo-t {
+
+    max-width: 100%;
+    height: auto;
+    margin-left: 40px
+}
+.menu {
+    display: flex;
+    margin: 0 auto;
+    flex: 0 1 auto;
+
+}
+.menu-link {
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    text-align: right;
+    justify-content: right;
+}
+.menu-list {
+    margin-right: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.menu-list a{
+    text-decoration: none;
+    color: #777777;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  color: #777777;
+  max-width: 15px;
+  order: -1;
+margin-right: 20px;
+}
+
+.search-field {
+  border: 0;
+padding: 5px 5px 5px 5px
+}
+
+.search-field:focus {
+  border: 1px solid black;
+  border-radius: 15%;
+}
+/*Заголовок */
+.name{
+
+    height: 350px;
+    padding-top: 155px;
+    margin-left: 50px;
+    background-image: url(../img/slideabout.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    width: 450px;
+    border: 2px solid black;
+    padding: 15px 35px 15px 35px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 48px;
+    line-height: 30px;
+    color: #ffffff;
+    font-size: 48px;
+    line-height: 30px;
+    letter-spacing: 4.8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.title a {
+    color: #ffffff;
+}
+h4 {
+    color: #000000;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 7.2px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+/* Office */
+.office {
+    display: flex;
+    margin-top: 87px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content:space-around
+}
+.office-info {
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    color: #2f302f;
+    font-family: 'Roboto';
+    font-weight: 300;
+    text-align: left;
+    font-size: 37px;
+    letter-spacing: 12px;
+    line-height: 50px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+
+}
+p.office-des {
+    letter-spacing: 0.4px;
+    line-height: 30px;
+    color: #2f302f;
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 300;
+    text-align: left;
+}
+span{
+color: black;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+color: #222222;
+font-family: "Roboto";
+}
+/* Формы*/
+
+input:focus {
+background: #eaeaea;
+}
+
+.block-form {
+    margin-bottom: 15px;
+}
+input {
+    border: 0;
+}
+input[type=text], [type=email]{
+    padding: 10px;
+    color: #bababa;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-style: italic;
+    text-align: left;
+}
+textarea {
+    padding: 10px;
+    resize: none;
+    border: 0;
+    color: #bababa;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-style: italic;
+    text-align: left;
+}
+button {
+    border: 0;
+    margin: 20px;
+    padding: 12px;
+    width: 218px;
+    color: #fff;
+    background: black;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21.33px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.79px;
+}
+button:active {
+    background-color: red;
+    outline: none;
+}
+
+/*Карта*/
+.map {
+    display: fex;
+    justify-content: center;
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:50%;
+    position:absolute;
+}
+/* Our Values*/
+.our-title{
+   display: flex;
+   justify-content: center;
+    padding-bottom: 40px;
+    margin-top: 70px;
+
+}
+p.our-subtitle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #777777;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.35px;
+    line-height: 30px;
+    margin-bottom: 60px;
+    }
+.our-column {
+    display: flex;
+    justify-content: center;
+    column-gap: 7%;
+}
+
+h3 a {
+color: #000000;
+font-family: "Roboto Light";
+font-size: 18px;
+font-weight: 300;
+letter-spacing: 7.2px;
+line-height: 24px;
+text-transform: uppercase;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.our-description {
+      color: #777777;
+font-family: 'Roboto';
+font-size: 14px;
+font-weight: 400;
+text-align: left;
+font-weight: 400;
+letter-spacing: 0.35px;
+line-height: 30px;
+}
+/* Низ */
+footer {
+    height: 300px;
+}
+.logo-b {
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+}
+.fonts {
+    display: flex; justify-content: center;
+    padding-top: 68px;
+    padding-bottom: 62px;
+}
+.fonts {
+    display: flex;
+    justify-content: center;
+}
+.bottom {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+.fonts a {
+    color: black;
+    width: 2%;
+}
+li {
+    list-style-type: none;
+}
+li:hover {
+    color: black;
+    border-bottom: 2px solid black;
+}
+a {text-decoration: none;}

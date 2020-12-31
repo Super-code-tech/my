@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+a {text-decoration: none;}
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+        padding: 0 40px
+}
+
+li:hover {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.container {
+    max-width: 1600px;
+}
+/* Меню*/
+header {
+    display: flex;
+    max-height: 90px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+.logo-t {
+    margin-left: 40px;
+    max-width: 100%;
+    height: auto;
+}
+.menu {
+    display: flex;
+    margin: 0 auto;
+    flex: 0 1 auto;
+
+}
+.menu-link {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    text-align: right;
+    justify-content: right;
+}
+.menu-list {
+    margin-right: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.menu-list a{
+    text-decoration: none;
+    color: #777777;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  color: #777777;
+  max-width: 15px;
+  order: -1;
+margin-right: 20px;
+}
+
+.search-field {
+  border: 0;
+padding: 5px 5px 5px 5px
+}
+
+.search-field:focus {
+  border: 1px solid black;
+  border-radius: 15%;
+}
+/*Заголовок */
+.name{
+    height: 350px;
+    padding-top: 155px;
+    padding-left: 50px;
+    background-image: url(../img/slideportfolio.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.title {
+    text-transform: uppercase;
+    width: 710px;
+    border: 2px solid black;
+    padding: 15px 35px 15px 35px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 48px;
+    line-height: 30px;
+    letter-spacing: 4.8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 55px;
+}
+.title a {
+    color: #ffffff;
+}
+h4 {
+    color: #000000;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 7.2px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.menu-2 {
+    display: flex;
+    justify-content: center;
+    margin: 60px 20px 50px 20px;
+}
+li:hover {
+    color: black;
+    border-bottom: 2px solid black;
+}
+/*Картинки с ховером*/
+/*ДАААААААААААААААААААААААААААА РАДИ ЭТОГО Я БЛЯ*ТЬ НЕ СПАЛ((( */
+/*МНЕ ЗА ЭТО РАЗРАБОТКУ ТАКУУУУЮ ПРЕМИЮ ДАДУТ... ИЛИ НЕТ? ПАМАГИТЕ*/
+.images {
+    display: flex;
+    flex-direction: column;
+    column-gap: 5%;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.picture-hover {
+    background-color: #808080;
+    opacity: 0.9;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    justify-content: center;
+    display: none;
+}
+
+.picture-button {
+    height: 50px;
+    width: 50px;
+    line-height: 56px;
+    justify-content: center;
+    display: inline-flex;
+}
+/*Наведение*/
+
+.picture:hover .picture-hover {
+    display: flex;
+}
+
+.picture-2:hover .picture-hover {
+    display: flex;
+}
+
+.picture-3:hover .picture-hover {
+    display: flex;
+}
+.picture-4:hover .picture-hover {
+    display: flex;
+}
+.picture-5:hover .picture-hover {
+    display: flex;
+}
+.picture-6:hover .picture-hover {
+    display: flex;
+}
+.picture-7:hover .picture-hover {
+    display: flex;
+}
+.picture-8:hover .picture-hover {
+    display: flex;
+}
+.picture-9:hover .picture-hover {
+    display: flex;
+}
+.picture-10:hover .picture-hover {
+    display: flex;
+}
+/*Картинка первая*/
+.picture {
+    position: relative;
+    height: 350px;
+}
+
+/*Картинка вторая*/
+
+.picture-2 {
+    position: relative;
+    height: 250px;
+}
+.picture-3 {
+    position: relative;
+    height: 450px;
+}
+.picture-4 {
+    position: relative;
+    height: 250px;
+}
+.picture-5 {
+    position: relative;
+    height: 350px;
+}
+.picture-6 {
+    position: relative;
+    height: 250px;
+}
+.picture-7 {
+    position: relative;
+    height: 450px;
+}
+.picture-8 {
+    position: relative;
+    height: 250px;
+}
+.picture-9 {
+    position: relative;
+    height: 350px;
+}
+.picture-10 {
+    position: relative;
+    height: 350px;
+}
+/*плюсик позиция*/
+.plus-svg {
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+    width: 40px;
+    height: 40px;
+}
+
+.plus-svg-2 {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    width: 40px;
+    height: 40px;
+}
+
+.plus-svg-3 {
+    display: flex;
+    justify-content: center;
+    margin: 200px;
+    width: 40px;
+    height: 40px;
+}
+.plus-svg-4 {
+    display: flex;
+    justify-content: center;
+    margin: 110px;
+    width: 40px;
+    height: 40px;
+}
+
+.plus-svg-5 {
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+    width: 40px;
+    height: 40px;
+}
+
+.plus-svg-5 {
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+    width: 40px;
+    height: 40px;
+}
+.plus-svg-6 {
+    display: flex;
+    justify-content: center;
+    margin: 110px;
+    width: 40px;
+    height: 40px;
+}
+.plus-svg-7 {
+    display: flex;
+    justify-content: center;
+    margin: 200px;
+    width: 40px;
+    height: 40px;
+}
+.plus-svg-8 {
+    display: flex;
+    justify-content: center;
+    margin: 110px;
+    width: 40px;
+    height: 40px;
+}
+.plus-svg-9 {
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+    width: 40px;
+    height: 40px;
+}
+.plus-svg-10 {
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+    width: 40px;
+    height: 40px;
+}
+/*Кнопка*/
+.k {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+a.knopka {
+font-family: 'Roboto';
+font-size: 13px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 20.57px;
+text-align: center;
+text-transform: uppercase;
+
+  color: #fff;
+  text-decoration: none;
+  user-select: none;
+  border: 2px solid grey;
+    background-color: grey;
+  padding: 10px 24px 10px 24px;
+  outline: none;
+    border-radius: 10%;
+}
+a.knopka:hover { background: rgb(232,95,76); }
+a.knopka:active { background: rgb(152,15,0); }
+/* Низ */
+footer {
+    height: 300px;
+}
+.logo-b {
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+}
+.fonts {
+    display: flex; justify-content: center;
+    padding-top: 68px;
+    padding-bottom: 62px;
+}
+.fonts {
+    display: flex;
+    justify-content: center;
+}
+.bottom {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+.fonts a {
+    color: black;
+    width: 1.5%;
+}
